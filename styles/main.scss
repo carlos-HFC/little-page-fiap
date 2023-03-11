@@ -1,0 +1,23 @@
+.carousel {
+  height: 700px;
+
+  &-inner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+}
+
+.card {
+  padding: 0;
+  flex: 1;
+
+  &-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
+.row {
+  flex-wrap: wrap;
+}

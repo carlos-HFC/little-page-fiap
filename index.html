@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/main.min.css" />
+</head>
+
+<body class="bg-body-secondary">
+  <main>
+    <nav class="navbar navbar-expand-lg bg-dark-subtle">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/ball.png" alt="Bola de futebol americano" width="100%" height="50" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#teams">Equipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#players">Jogadores</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="mb-5">
+      <div id="carousel-top" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel-top" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel-top" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/brady-atstadium.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/qbs.jpg" class="d-block w-100">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-top" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-top" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="container mb-5">
+      <div class="row mb-5" id="teams">
+        <div class="col">
+          <h1 class="display-3 d-flex align-items-center justify-content-center">
+            Principais equipes
+          </h1>
+        </div>
+      </div>
+
+      <div class="row gap-3">
+        <div class="card col-3">
+          <img src="./images/patriots.webp" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">New England Patriots</h5>
+            <p class="card-text">
+              Equipe com mais participações em Super Bowls (11) e, também, com mais títulos, levando 6 troféus para
+              casa. Dominando o século atual, onde teve Tom Brady em todos os seus títulos vencidos e, também, tendo um
+              dos maiores técnicos de todos os tempos.
+            </p>
+          </div>
+        </div>
+
+        <div class="card col-3">
+          <img src="./images/steelers.jpg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">Pittsburgh Steelers</h5>
+            <p class="card-text">
+              Empatado com os Patrios, também tem 6 troféus. Dominou parte dos anos 70, levando 4 troféus na década.
+            </p>
+          </div>
+        </div>
+
+        <div class="card col-3">
+          <img src="./images/cowboys.jfif" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">Dallas Cowboys</h5>
+            <p class="card-text">
+              Conhecido como "time da América" pela sua grande massa de fãs, detém 5 títulos em 8 aparições. É a equipe
+              esportiva mais bem avaliada no mundo, chegando a US$ 8 bilhões, segundo a Forbes. Além de dona do maior
+              estádio da NFL, com 80 mil de lugares de capacidade, custando US$ 1.3 bilhões
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row gap-3 mt-3">
+        <div class="card col-3">
+          <img src="./images/packers.png" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">Green Bay Packers</h5>
+            <p class="card-text">
+              Uma das equipes mais tradicionais, tendo mais de 100 anos de história. Contabilizando toda a história do
+              futebol americano, é a equipe com maior número de títulos, levando 13 para casa. Também é a única equipe
+              que não tem um dono, ela é formada por seus próprios torcedores, de uma pequena cidade no Winsconsin.
+            </p>
+          </div>
+        </div>
+
+        <div class="card col-3">
+          <img src="./images/bears.png" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">Chicago Bears</h5>
+            <p class="card-text">
+              Junto dos Packers, são as equipes mais antigas e com uma rivalidade centenária, tendo mais 200 jogos
+              disputados entre as equipes. Detém 9 títlos em toda a história, mas caiu no limbo após péssimas gestões
+              nos últimos anos.
+            </p>
+          </div>
+        </div>
+
+        <div class="card col-3">
+          <img src="./images/49ers.png" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">San Francisco 49ers</h5>
+            <p class="card-text">
+              Uma das principais equipes, ainda mais por estar em um mercado consumidor muito forte. Seu nome, apesar de
+              estranho, surgiu em homenagem aos viajantes que correram para o oeste em busca de ouro. Detém 5 Super
+              Bowls em 7 aparições.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="row mb-5" id="players">
+        <div class="col">
+          <h1 class="display-3 d-flex align-items-center justify-content-center">
+            Jogadores emblemáticos
+          </h1>
+        </div>
+      </div>
+
+      <div class="row gap-3">
+        <div class="card col-3">
+          <img src="./images/brady.jpg" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">Tom Brady</h5>
+            <p class="card-text">
+              Conhecido como o maior jogador de todos os tempos pelos seus feitos, liderança e competitividade.
+              Sozinho, têm 7 títulos. As equipes com mais títulos são New England Patriots, ex-equipe de Tom Brady, e
+              Pittsburgh Steelers, ambos com 6 títulos.
+            </p>
+          </div>
+        </div>
+
+        <div class="card col-3">
+          <img src="./images/manning.webp" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">Peyton Manning</h5>
+            <p class="card-text">
+              Considerado um dos mais talentosos, rivalizou por anos com Brady, tendo embates incríveis entre os
+              atletas. Venceu apenas 2 títulos em sua carreira
+            </p>
+          </div>
+        </div>
+
+        <div class="card col-3">
+          <img src="./images/mahomes.webp" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">Patrick Mahomes</h5>
+            <p class="card-text">
+              O melhor jogador da atualiadade. Com apenas 27 anos, já tem dois títulos e muitos o apontam como o futuro
+              melhor de todos os tempos, podendo superar Tom Brady. Um dos mais talentosos, atualmente, superando
+              grandes adversidades, inclusive, jogando com um entorse no tornozelo durante metade de uma partida
+              decisiva.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white">
+      <div class="container">
+        <footer class="row mt-5 py-5 border-top justify-content-center align-items-center">
+          <div class="col-3 mb-3">
+            <img src="./images/ball.png" alt="Bola de futebol americano" width="100%" />
+          </div>
+
+          <div class="col-3 mb-3">
+            <h5>Links úteis</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="https://nfl.com" class="nav-link p-0 text-muted">NFL</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="https://espn.com.br" class="nav-link p-0 text-muted">ESPN</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="https://profootball.com.br" class="nav-link p-0 text-muted">Profootball</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted"></a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted"></a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
